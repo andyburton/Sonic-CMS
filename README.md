@@ -7,7 +7,7 @@ Folder structure:
 ===========
 
 /  
-/Sonic-Sramework  
+/Sonic-Framework  
 /Sonic-Framework/classes/  
 ...  
 /Sonic-CMS  
