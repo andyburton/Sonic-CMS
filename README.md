@@ -6,18 +6,18 @@ CMS designed to run with the Sonic Framework
 Folder structure:
 ===========
 
-/
-/Sonic-Framework
-/Sonic-Framework/classes/
-...
-/Sonic-CMS
-/Sonic-CMS/public_html/
-...
-/smarty
-/smarty/Smarty.class.php
-/smarty/plugins/
-/smarty/sysplugins/
-...
+/  
+/Sonic-Sramework  
+/Sonic-Framework/classes/  
+...  
+/Sonic-CMS  
+/Sonic-CMS/public_html/  
+...  
+/smarty  
+/smarty/Smarty.class.php  
+/smarty/plugins/  
+/smarty/sysplugins/  
+...  
 
 Setup
 ===========
@@ -38,6 +38,7 @@ You can configure the SMTP details for outbound email (used by the CMS admin use
 
 Create your vhost to point to /Sonic-CMS/public_html adding the framework config variable e.g.
 
+```
 <VirtualHost *:80>
 
         SetEnv SONIC_CONFIG dev
@@ -56,6 +57,7 @@ Create your vhost to point to /Sonic-CMS/public_html adding the framework config
         CustomLog /var/log/apache2/sonic_cms.access.log combined
 
 </VirtualHost>
+```
 
 Open yourdomain.com/admin and login using the default credentials:
 
