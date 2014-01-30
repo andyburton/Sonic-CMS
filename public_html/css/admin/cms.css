@@ -1,0 +1,230 @@
+
+/* jQuery UI */
+
+.ui-autocomplete
+{
+	text-align: left;
+	background: url("../overcast/images/ui-bg_glass_60_eeeeee_1x400.png") repeat-x scroll 50% 50% #EEEEEE;
+}
+
+.ui-autocomplete li a
+{
+    color: #3383BB;
+	padding-top: 3px !important;
+	padding-bottom: 3px !important;
+}
+
+
+/* Specific module styles */
+
+.banner-head
+{
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+
+.expand
+{
+	background: url('/gfx/admin/module_expand.png') no-repeat right;
+}
+
+.expanded
+{
+	background: url('/gfx/admin/module_collapse.png') no-repeat right;
+}
+
+#cms_modules .ui-button
+{
+	width: 140px;
+	text-align: left;
+	margin: 3px 0px;
+}
+
+.cms_module
+{
+	display: inline;
+	float: left;
+	margin: 6px 10px 6px 0px;
+}
+
+#dialog-confirm
+{
+	display: none;
+}
+
+/* Redirects */
+
+#redirect_fields span.delete
+{
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 10px;
+	height: 16px;
+	width: 16px;
+	background: url(/gfx/admin/delete.png) no-repeat;
+}
+
+/* Page Images */
+
+#cms_images
+{
+	list-style: none;
+	margin: 12px 0;
+}
+
+#cms_images .ui-state-highlight
+{
+	height: 97px;
+}
+
+#cms_images li
+{
+	margin: 10px;
+	padding: 10px;
+	width: 117px;
+	height: 90px;
+	float: left;
+
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+
+	-moz-box-shadow: 0 0 2px 0 rgba(0,0,0);
+	-webkit-box-shadow: 0 0 2px 0 rgba(0,0,0);
+	box-shadow: 0 0 2px 0 rgba(0,0,0);	
+}
+
+#cms_images li p
+{
+	margin: 0px;
+}
+
+#cms_images li img
+{
+	float: left;
+}
+
+#cms_images li a
+{
+	float: right;
+	margin: 6px 0;
+}
+
+.cmsimage-image strong
+{
+	display: block;
+	padding: 0px;
+	margin: 0px 0px 6px 0px;
+}
+
+.cmsimage-edit
+{
+	background: #FFF;
+	border: 1px solid #CCC;
+	padding: 10px;
+	width: 260px;
+	z-index: 10;
+
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.cmsimage-edit img
+{
+	cursor: pointer;
+	right: 10px;
+	position: absolute;
+	top: 10px;
+}
+
+
+/* Image Uploader */
+
+#swfupload-control
+{
+	padding-top: 6px;
+	clear: both;
+}
+
+#output {
+	background: #E0E0E0;
+	border: 2px solid #CCC;
+	margin: 12px 0;
+	padding: 10px;
+	width: 630px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#queue {
+	border-collapse: collapse;
+	width: 630px;
+}
+#queue td,
+#queue th {
+	background: #fff;
+	border: 1px solid #ccc;
+	color: #333;
+	font: 11px Arial, Helvetica, sans-serif;
+	padding: 10px;
+}
+#queue th {
+	border-bottom: 2px solid #999;
+}
+#queue th#progress {
+	width: 170px;
+}
+#queue td .progressbar {
+	background: #444;
+	height: 14px;
+	padding: 2px;
+}
+#queue td .progress {
+	background: #AAA;
+	border-right: 2px solid #FFF;
+	height: 14px;
+	width: 0%;
+}
+#queue td .progress.success {
+	background: #586F53;
+	border-right: 0;
+	width: 100%;
+}
+#queue td .progress.error {
+	background: #98292B;
+	border-right: 0;
+	width: 100%;
+}
+#queue td .progressbar.overall {
+	background: #666;
+}
+#queue td .progressbar.overall .progress {
+	background: #5090D0;
+	border-right: 2px solid #173D5F;
+}
+#queue td .progressbar.overall.complete .progress {
+	background: #586F53;
+	border-right: 0;
+}
+#queue td p {
+	margin: 0;
+	line-height: 18px;
+}
+#queue #overall td {
+	border-top: 2px solid #999;
+}
+#queue td.success {
+	background: #90CF81;
+	border: 1px solid #393;
+}
+#queue td.cancel,
+#queue th.cancel,
+#queue #overall td.cancel {
+	background: none;
+	border: 0;
+	cursor: pointer;
+	height: 20px;
+	text-align: center;
+	width: 20px;
+}

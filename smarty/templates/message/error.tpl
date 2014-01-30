@@ -1,0 +1,1 @@
+<div class="message_error">{$message}</div>

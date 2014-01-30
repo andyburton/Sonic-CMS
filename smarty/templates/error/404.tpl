@@ -1,0 +1,1 @@
+{extends 'cms/homepage.tpl'}

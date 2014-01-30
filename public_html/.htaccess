@@ -1,0 +1,17 @@
+RewriteEngine On
+
+# Sitemap and Robots
+
+RewriteRule ^sitemap.xml$ /sitemap [L]
+RewriteRule ^robots.txt$ /robots [L]
+
+# Existing files, directories or symlinks
+
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+
+# CMS Controller
+
+RewriteRule ^.*$ index.php [NC,L]

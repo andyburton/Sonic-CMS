@@ -1,0 +1,1 @@
+<div class="message_success">{$message}</div>
